@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\bin\Debug\Actividad02.NET.exe.config
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\bin\Debug\Actividad02.NET.exe
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\bin\Debug\Actividad02.NET.pdb
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\obj\Debug\Actividad02.NET.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\obj\Debug\Actividad02.NET.Properties.Resources.resources
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\obj\Debug\Actividad02.NET.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\obj\Debug\Actividad02.NET.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\obj\Debug\Actividad02.NET.exe
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\obj\Debug\Actividad02.NET.pdb
+C:\Users\User\source\repos\Actividad02.NET\Actividad02.NET\obj\Debug\Actividad02.NET.frmCalculator.resources
