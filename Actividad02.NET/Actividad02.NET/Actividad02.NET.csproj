@@ -90,5 +90,8 @@
   <ItemGroup>
     <None Include="Resources\deleteCaracter.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiempo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

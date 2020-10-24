@@ -70,11 +70,16 @@
             this.btnCero = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
             this.btnSigno = new System.Windows.Forms.Button();
+            this.pnlMike = new System.Windows.Forms.Panel();
+            this.pnlMostrar = new System.Windows.Forms.Panel();
+            this.picHistorial = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.pnlMostrar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picHistorial)).BeginInit();
             this.SuspendLayout();
             // 
             // lblOperacion
@@ -715,12 +720,50 @@
             this.btnSigno.UseVisualStyleBackColor = false;
             this.btnSigno.Click += new System.EventHandler(this.btnSigno_Click);
             // 
+            // pnlMike
+            // 
+            this.pnlMike.AutoSize = true;
+            this.pnlMike.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlMike.Location = new System.Drawing.Point(0, 0);
+            this.pnlMike.Name = "pnlMike";
+            this.pnlMike.Size = new System.Drawing.Size(232, 0);
+            this.pnlMike.TabIndex = 0;
+            // 
+            // pnlMostrar
+            // 
+            this.pnlMostrar.AutoScroll = true;
+            this.pnlMostrar.AutoSize = true;
+            this.pnlMostrar.Controls.Add(this.pnlMike);
+            this.pnlMostrar.Location = new System.Drawing.Point(5, 35);
+            this.pnlMostrar.MaximumSize = new System.Drawing.Size(242, 278);
+            this.pnlMostrar.Name = "pnlMostrar";
+            this.pnlMostrar.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.pnlMostrar.Size = new System.Drawing.Size(242, 27);
+            this.pnlMostrar.TabIndex = 7;
+            this.pnlMostrar.Tag = "Visualizar los 5 resultados anteriores";
+            // 
+            // picHistorial
+            // 
+            this.picHistorial.Image = global::Actividad02.NET.Properties.Resources.tiempo;
+            this.picHistorial.Location = new System.Drawing.Point(5, 35);
+            this.picHistorial.Name = "picHistorial";
+            this.picHistorial.Padding = new System.Windows.Forms.Padding(3);
+            this.picHistorial.Size = new System.Drawing.Size(29, 27);
+            this.picHistorial.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picHistorial.TabIndex = 8;
+            this.picHistorial.TabStop = false;
+            this.picHistorial.Click += new System.EventHandler(this.picHistorial_Click);
+            this.picHistorial.MouseLeave += new System.EventHandler(this.picHistorial_MouseLeave);
+            this.picHistorial.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picHistorial_MouseMove);
+            // 
             // frmCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(334, 321);
+            this.Controls.Add(this.picHistorial);
+            this.Controls.Add(this.pnlMostrar);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -740,7 +783,11 @@
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.pnlMostrar.ResumeLayout(false);
+            this.pnlMostrar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picHistorial)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -788,6 +835,9 @@
         private System.Windows.Forms.Button button34;
         private System.Windows.Forms.Button btnSigno;
         public System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.Panel pnlMike;
+        private System.Windows.Forms.Panel pnlMostrar;
+        private System.Windows.Forms.PictureBox picHistorial;
     }
 }
 
